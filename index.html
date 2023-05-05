@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main id="main">
+        <div class="weatherBox">
+          <div class="searchBox">
+          <input id="name" type="text" autocomplete="off" placeholder="Enter City" >
+          <button class="searchButton" type="button" ><i class="fa-solid fa-magnifying-glass fa-fade"></i></button>
+        </div>
+        <div class="weatherDetails">
+            <p class="city"></p>
+            <div class="icon"><span class="image"><i class="fa-solid fa-cloud fa-beat"></i></span></div>
+            <div class="temperature"><span class="num">0</span><sup>o</sup>c</div>
+            <div class="clouds">Clouds</div>
+          </div>
+          <div class="details">
+            <div class="extras">
+              <div class="humidity">
+                <span><i class="fa fa-solid fa-water"></i></span>
+                <div class="text">
+                  <p class="humidityValue">100</p>
+                  <span class="sub">Humidity</span>
+                </div>
+              </div>
+              <div class="windSpeed">
+                <span><i class="fa fa-solid fa-wind"></i></span>
+                <div class="text">
+                  <p class="windSpeedValue">5</p>
+                  <span class="sub">Wind Speed</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="dateAndTime">
+          <div class="dateAndDay">
+            <span class="date">18</span>
+            <span class="month">April</span>
+            <br>
+            <span class="day">Monday</span>
+          </div>
+          <div class="time">
+            <span class="hours"></span>
+            <span class="colon">:</span>
+            <span class="minutes"></span>
+            <br>
+            <span class="meridian"></span>
+
+          </div>
+        </div>
+        </div>
+      </main>
+
+
+
+
+
+
+
+</body>
+
+<footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2e23f9880a.js" crossorigin="anonymous"></script>
+</footer>
+</html>
